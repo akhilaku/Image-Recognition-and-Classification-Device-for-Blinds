@@ -7,14 +7,15 @@ This NCS functions as an efficient external processor for performing any complex
 They are less-cost comparing other GPU's and can be used efficiently for most of the Deeo Learning, Machine Learning and Artificial Intelligence Based Projects 
 ![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/IMNCS.png)
 
-**Overview / Usage**
+## Overview / Usage
+
 The Intel Movidius Neural Compute Stick(NCS) is produced by Intel and can be run without an internet connection. This Movidius NCS's compute capability comes from its Myriad 2 Vision Processing Unit(VPU).
 
 Profiling, tuning and compiling a DNN on a development computer with the tools are provided in the Intel and can be run without an Internet connection. The Movidius NCS's compute capability comes from its Myriad 2 VPU(Vision Processing Unit). Running Deep Learning (DL) models efficiently on a low capacity graphic processors is very difficult. Movidius allows us to optimize the operation of large models such as GoogleNet with multi-use support. It's an easy to use kit that allows you to design and implement applications such as **classification and object recognition** on physical products.
 
 We can simply think of Movidius NCS's as a Graphic Processing Unit(GPU) running on a USB. Model training isn't performed on device, but a trained model can work optimally on the unit, which is intended to be used in physical environments for resting purposes.
 
-**Methodology / Approach**
+## Methodology / Approach
 
 With the help of Intel Movidius Neural Compute USB Stick with Raspberry Pi-3 we are using it for image classification and an object recognizing application. The frameworks, standards, technique used are:
 
@@ -23,7 +24,7 @@ It is compatible with two DNN frameworks such as **TensorFlow** and **Caffe**
 Movidius Myriad 2 Vision Processing Unit(VPU) works with Caffe based Convolutional Neural Networks(CNN).
 We can also run complex Deep Learning(DL) pre-trained models like GoogleNet, SqueezeNet, AlexNet on systems with low processing capability.
 
-**Approach:**
+## Approach:
 
 It's very simple to run inference on an image classification demo model. We can use the NC App Zoo repo for classifying an image. We need to take the graph file to activate the application of the Movidius NCS. It has a compiled GoogleNet model for ready to run. This application needs some files. The **make command** is used for creating the files that Movidius needs as a graph file. The graph files is a demo of image-classifier.
 
@@ -47,23 +48,26 @@ It's very simple to run inference on an image classification demo model. We can 
 
 **Step 08:** For the last step, we clear and shutdown the Movidius NCS device for using it again.
 
-**Technologies Used**
+## Technologies Used
 Intel Technologies used(as external hardware):
 
 Intel Movidius Neural Compute Stick
 
-**Software used:**
+## Software used:
 
 Python 3 Software
-
-**Hardware technology used other than Intel:**
+ 
+## Hardware technology used other than Intel:
 
 Raspberry Pi-3
 
-**Screenshots of image classifications and Recognitions**
+## Screenshots of image classifications and Recognitions
+
 ![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Cat%20Variety%20Classification%20and%20Recognition.png)
 
 ![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Dog%20Variety%20Recognition.png)
+
+## Project done in Linux(ubantu) Operating System
 
 ![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Image%20Recognition%20in%20Linux(ubantu).png)
 
