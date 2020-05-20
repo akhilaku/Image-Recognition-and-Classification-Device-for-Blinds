@@ -14,14 +14,16 @@ Profiling, tuning and compiling a DNN on a development computer with the tools a
 
 We can simply think of Movidius NCS's as a Graphic Processing Unit(GPU) running on a USB. Model training isn't performed on device, but a trained model can work optimally on the unit, which is intended to be used in physical environments for resting purposes.
 
-Methodology / Approach
+**Methodology / Approach**
+
 With the help of Intel Movidius Neural Compute USB Stick with Raspberry Pi-3 we are using it for image classification and an object recognizing application. The frameworks, standards, technique used are:
 
 It can be used in **Ubuntu 16.04 **or Raspberry Pi-3.
-It is compatible with two DNN frameworks such as **TensorFlow **and Caffe
+It is compatible with two DNN frameworks such as **TensorFlow** and **Caffe**
 Movidius Myriad 2 Vision Processing Unit(VPU) works with Caffe based Convolutional Neural Networks(CNN).
 We can also run complex Deep Learning(DL) pre-trained models like GoogleNet, SqueezeNet, AlexNet on systems with low processing capability.
-Approach:
+
+**Approach:**
 
 It's very simple to run inference on an image classification demo model. We can use the NC App Zoo repo for classifying an image. We need to take the graph file to activate the application of the Movidius NCS. It has a compiled GoogleNet model for ready to run. This application needs some files. The **make command** is used for creating the files that Movidius needs as a graph file. The graph files is a demo of image-classifier.
 
