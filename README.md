@@ -55,7 +55,7 @@ Intel Movidius Neural Compute Stick
 
 ## Software used:
 
-Python 3 Software
+**Python 3** Software
  
 ## Hardware technology used other than Intel:
 
