@@ -59,7 +59,7 @@ Intel Movidius Neural Compute Stick
  
 ## Hardware technology used other than Intel:
 
-Raspberry Pi-3
+**Raspberry Pi-3**
 
 ## Screenshots of image classifications and Recognitions
 
