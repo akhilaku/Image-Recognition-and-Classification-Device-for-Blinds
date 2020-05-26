@@ -11,7 +11,7 @@ They are less-cost comparing other GPU's and can be used efficiently for most of
 
 The Intel Movidius Neural Compute Stick(NCS) is produced by Intel and can be run without an internet connection. This Movidius NCS's compute capability comes from its Myriad 2 Vision Processing Unit(VPU).
 
-Profiling, tuning and compiling a DNN on a development computer with the tools are provided in the Intel and can be run without an Internet connection. The Movidius NCS's compute capability comes from its Myriad 2 VPU(Vision Processing Unit). Running Deep Learning (DL) models efficiently on a low capacity graphic processors is very difficult. Movidius allows us to optimize the operation of large models such as GoogleNet with multi-use support. It's an easy to use kit that allows you to design and implement applications such as **classification and object recognition** on physical products.
+Profiling, tuning and compiling a DNN on a development computer with the tools are provided in the Intel and can be run without an Internet connection. The Movidius NCS's compute capability comes from its **Myriad 2 VPU(Vision Processing Unit)**. Running Deep Learning (DL) models efficiently on a low capacity graphic processors is very difficult. Movidius allows us to optimize the operation of large models such as GoogleNet with multi-use support. It's an easy to use kit that allows you to design and implement applications such as **classification and object recognition** on physical products.
 
 We can simply think of Movidius NCS's as a Graphic Processing Unit(GPU) running on a USB. Model training isn't performed on device, but a trained model can work optimally on the unit, which is intended to be used in physical environments for resting purposes.
 
