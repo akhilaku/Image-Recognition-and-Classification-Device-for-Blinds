@@ -36,7 +36,7 @@ It's very simple to run inference on an image classification demo model. We can 
 1. **Step 01:** For using the property of the NCSDK API add (import) the mvnc library.
 
     ```python
-       import mvnc.mvncapi as mvnc```
+       import mvnc.mvncapi as mvnc
 
 1. **Step 02:** You can access the Movidius NCS using an API like any other USB device. Also you can use parallel Movidius devices at once if you need more capacity to compute your model. For now, one kit is enough for this application. Select and open process.
     ```python
@@ -47,7 +47,7 @@ It's very simple to run inference on an image classification demo model. We can 
            quit;
        #Now get a handle to the first enumerated device and open it.
        device = mvnc.Device(devices[0]);
-       device.OpenDevice();```
+       device.OpenDevice();
 
 1. **Step 03:** We will use a pre-trained GoogleNet model for using a compiled graph file.
     ```python
@@ -55,7 +55,7 @@ It's very simple to run inference on an image classification demo model. We can 
        with open(GRAPH_PATH, mode = 'rb') as f:
            blob = f.read();
        #Load the graph buffer into the NCS.
-       graph = device.AllocateGraph(blob);```
+       graph = device.AllocateGraph(blob);
 
 1. **Step 04:** We also need to do some pre-processing before loading the image into our Movidius NCS.
     ```python
@@ -76,7 +76,7 @@ It's very simple to run inference on an image classification demo model. We can 
 1. **Step 06:** Give the input image to the pre-trained model and get the output by using GetResult().
     ```python
        #Get the results from NCS
-       output, userobj = graph.GetResult();```
+       output, userobj = graph.GetResult();
 
 1. **Step 07:** Print the prediction of the model's output and corresponding labels. Here we also display the input image at the same time.
     ```python
@@ -88,13 +88,13 @@ It's very simple to run inference on an image classification demo model. We can 
          print ('prediction' + str(i) 'is' + labels[order[i]));
        #Display the image on which inference was performed
        skimage.io.imshow(IMAGES_PATH);
-       skimage.io.show();```
+       skimage.io.show();
 
 1. **Step 08:** For the last step, we clear and shutdown the Movidius NCS device for using it again.
     ```python
        #For claer and shutdowning the Movidius NCS device for using it gain.
        graph.DeallocateGraph;
-       device.CloseDevice();```
+       device.CloseDevice();
 
 ## Technologies Used
 Intel Technologies used **(as external hardware):**
