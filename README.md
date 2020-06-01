@@ -50,14 +50,16 @@ It's very simple to run inference on an image classification demo model. We can 
        device.OpenDevice();```
 
 1. **Step 03:** We will use a pre-trained GoogleNet model for using a compiled graph file.
-    ```#Read the graph file into a buffer.
+    ```python
+       #Read the graph file into a buffer.
        with open(GRAPH_PATH, mode = 'rb') as f:
            blob = f.read();
        #Load the graph buffer into the NCS.
        graph = device.AllocateGraph(blob);```
 
 1. **Step 04:** We also need to do some pre-processing before loading the image into our Movidius NCS.
-    ```#Read and resize image[image size is defined during training]
+    ```python
+       #Read and resize image[image size is defined during training]
        img = print_img = skimage.io.imread(IMAGES_PATH);
        img = skimage.transform.resize(img,IMAGE_DIM, preserve_range = True);
        #Convert RGB to BGR [skimage reads image in RGB, but Caffe uses BGR]
@@ -67,30 +69,45 @@ It's very simple to run inference on an image classification demo model. We can 
        img = ( img - IMAGE_MEAN )*IMAGE_STDDEV;
 
 1. **Step 05:** Use LoadTensor() to load the image into the Movidius.
-    ```#Load the image as a half-precision floating point array.
+    ```python
+       #Load the image as a half-precision floating point array.
        graph.LoadTensor( img.astype( numpy.float16 ), 'user object' );
 
 1. **Step 06:** Give the input image to the pre-trained model and get the output by using GetResult().
-    ```
+    ```python
+       #Get the results from NCS
+       output, userobj = graph.GetResult();```
 
 1. **Step 07:** Print the prediction of the model's output and corresponding labels. Here we also display the input image at the same time.
-    ```
+    ```python
+       #Print the results
+       print('\n ----predictions----');
+       labels = numpy.loadtxt(LABELS_FILE_PATH,str,delimiter = '\t');
+       order = output.argsort()[::-1][:6];
+       for i in range(0,5):
+         print ('prediction' + str(i) 'is' + labels[order[i]));
+       #Display the image on which inference was performed
+       skimage.io.imshow(IMAGES_PATH);
+       skimage.io.show();```
 
 1. **Step 08:** For the last step, we clear and shutdown the Movidius NCS device for using it again.
-    ```
+    ```python
+       #For claer and shutdowning the Movidius NCS device for using it gain.
+       graph.DeallocateGraph;
+       device.CloseDevice();```
 
 ## Technologies Used
-Intel Technologies used(as external hardware):
+Intel Technologies used **(as external hardware):**
 
-Intel Movidius Neural Compute Stick
+   **Intel Movidius Neural Compute Stick**
 
 ## Software used:
 
-**Python 3** Software
+   **Python 3 Software**
  
 ## Hardware technology used other than Intel:
 
-**Raspberry Pi-3**
+   **Raspberry Pi-3**
 
 ## Screenshots of image classifications and Recognitions
 
