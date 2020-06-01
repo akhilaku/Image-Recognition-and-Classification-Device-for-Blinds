@@ -35,6 +35,9 @@ It's very simple to run inference on an image classification demo model. We can 
 
 1. **Step 01:** For using the property of the NCSDK API add (import) the mvnc library.
 
+    ```python
+       import mvnc.mvncapi as mvnc```
+
 1. **Step 02:** You can access the Movidius NCS using an API like any other USB device. Also you can use parallel Movidius devices at once if you need more capacity to compute your model. For now, one kit is enough for this application. Select and open process.
 
 1. **Step 03:** We will use a pre-trained GoogleNet model for using a compiled graph file.
