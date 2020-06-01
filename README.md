@@ -43,20 +43,32 @@ It's very simple to run inference on an image classification demo model. We can 
        #then look for the enumerated Intel Movidius NCS Device();quite program if none found.
        devices = mvnc.EnumerateDevice();
        if len(devices) == 0:
-            print("No any Devices found");
-            quit;
+           print("No any Devices found");
+           quit;
        #Now get a handle to the first enumerated device and open it.
        device = mvnc.Device(devices[0]);
        device.OpenDevice();```
 
 1. **Step 03:** We will use a pre-trained GoogleNet model for using a compiled graph file.
-    ```
+    ```#Read the graph file into a buffer.
+       with open(GRAPH_PATH, mode = 'rb') as f:
+           blob = f.read();
+       #Load the graph buffer into the NCS.
+       graph = device.AllocateGraph(blob);```
 
 1. **Step 04:** We also need to do some pre-processing before loading the image into our Movidius NCS.
-    ```
+    ```#Read and resize image[image size is defined during training]
+       img = print_img = skimage.io.imread(IMAGES_PATH);
+       img = skimage.transform.resize(img,IMAGE_DIM, preserve_range = True);
+       #Convert RGB to BGR [skimage reads image in RGB, but Caffe uses BGR]
+       img = img[:, :, ::-1];
+       #Mean subtraction and scaling [A common technique used to center the data]
+       img = img.astype(numpy.float32);
+       img = ( img - IMAGE_MEAN )*IMAGE_STDDEV;
 
 1. **Step 05:** Use LoadTensor() to load the image into the Movidius.
-    ```
+    ```#Load the image as a half-precision floating point array.
+       graph.LoadTensor( img.astype( numpy.float16 ), 'user object' );
 
 1. **Step 06:** Give the input image to the pre-trained model and get the output by using GetResult().
     ```
