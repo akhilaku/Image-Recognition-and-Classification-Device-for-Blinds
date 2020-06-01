@@ -39,18 +39,33 @@ It's very simple to run inference on an image classification demo model. We can 
        import mvnc.mvncapi as mvnc```
 
 1. **Step 02:** You can access the Movidius NCS using an API like any other USB device. Also you can use parallel Movidius devices at once if you need more capacity to compute your model. For now, one kit is enough for this application. Select and open process.
+    ```python
+       #then look for the enumerated Intel Movidius NCS Device();quite program if none found.
+       devices = mvnc.EnumerateDevice();
+       if len(devices) == 0:
+            print("No any Devices found");
+            quit;
+       #Now get a handle to the first enumerated device and open it.
+       device = mvnc.Device(devices[0]);
+       device.OpenDevice();```
 
 1. **Step 03:** We will use a pre-trained GoogleNet model for using a compiled graph file.
+    ```
 
 1. **Step 04:** We also need to do some pre-processing before loading the image into our Movidius NCS.
+    ```
 
 1. **Step 05:** Use LoadTensor() to load the image into the Movidius.
+    ```
 
 1. **Step 06:** Give the input image to the pre-trained model and get the output by using GetResult().
+    ```
 
 1. **Step 07:** Print the prediction of the model's output and corresponding labels. Here we also display the input image at the same time.
+    ```
 
 1. **Step 08:** For the last step, we clear and shutdown the Movidius NCS device for using it again.
+    ```
 
 ## Technologies Used
 Intel Technologies used(as external hardware):
