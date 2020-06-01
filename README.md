@@ -20,7 +20,7 @@ We can simply think of Movidius NCS's as a Graphic Processing Unit(GPU) running 
 
 With the help of Intel Movidius Neural Compute USB Stick with Raspberry Pi-3 we are using it for image classification and an object recognizing application. The frameworks, standards, technique used are:
 
-It can be used in **Ubuntu 16.04 **or Raspberry Pi-3.
+It can be used in Ubuntu 16.04 or Raspberry Pi-3.
 It is compatible with two DNN frameworks such as **TensorFlow** and **Caffe**
 Movidius Myriad 2 Vision Processing Unit(VPU) works with Caffe based Convolutional Neural Networks(CNN).
 We can also run complex Deep Learning(DL) pre-trained models like GoogleNet, SqueezeNet, AlexNet on systems with low processing capability.
