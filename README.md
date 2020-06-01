@@ -92,7 +92,7 @@ It's very simple to run inference on an image classification demo model. We can 
 
 1. **Step 08:** For the last step, we clear and shutdown the Movidius NCS device for using it again.
     ```python
-       #For claer and shutdowning the Movidius NCS device for using it gain.
+       #For clear and shutdowning the Movidius NCS device for using it gain.
        graph.DeallocateGraph;
        device.CloseDevice();
 
