@@ -68,7 +68,7 @@ Intel Movidius Neural Compute Stick
 
 ![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Dog%20Variety%20Recognition.png)
 
-## Project done in Linux(ubantu) Operating System
+## Project done in Linux(Ubuntu) Operating System
 
 ![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Image%20Recognition%20in%20Linux(ubantu).png)
 
