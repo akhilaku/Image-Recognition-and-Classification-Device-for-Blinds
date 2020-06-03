@@ -1,6 +1,8 @@
 # Image-Classifier-using-Intel-Movidius-NCS-2
 
 **This project is based on helping the blind people to identify, recognize and classify the things in front of them using Intel Movidius Neural Compute Stick(NCS) with Raspberry Pi-3.**
+
+**The project is under developed till its image recognition and classification process, and I'm under developing its classified text to speech process so that Blind people can know what is in front of them through their earphones connected to the device.**
 With the help of Intel Movidius NCS we can run any complex pre-trainet Networks in the processors with low processing capability.
 This NCS functions as an efficient external processor for performing any complex neural architectures.
 
