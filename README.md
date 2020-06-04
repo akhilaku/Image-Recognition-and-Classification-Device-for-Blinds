@@ -122,3 +122,8 @@ Intel Technologies used **(as external hardware):**
 ![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Image%20Recognition%20in%20Linux(ubantu).png)
 
 ![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Hardware%20Setup.jpeg)
+
+| ![](images/akhildasKS.jpg) |
+| :------------------------: |
+| **AKHILDAS KS**  |
+![GitHub followers](https://img.shields.io/github/followers/akhilaku.svg?label=Follow%20@akhilaku&style=social) [![Twitter Follow](https://img.shields.io/twitter/follow/KsAkhildas?style=social)](https://twitter.com/KsAkhildas)
