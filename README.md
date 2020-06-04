@@ -123,7 +123,7 @@ Intel Technologies used **(as external hardware):**
 
 ![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Hardware%20Setup.jpeg)
 
-###Project Admin
+### Project Admin
 
 | ![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-2/blob/master/akhildasKs%20(2).jpg) |
 | :------------------------: |
