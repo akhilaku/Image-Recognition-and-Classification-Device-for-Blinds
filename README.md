@@ -98,24 +98,34 @@ It's very simple to run inference on an image classification demo model. We can 
        graph.DeallocateGraph;
        device.CloseDevice();
 
+---
+
 ## Technologies Used
 Intel Technologies used **(as external hardware):**
 
    **Intel Movidius Neural Compute Stick**
 
+---
+
 ## Software used:
 
    **Python 3 Software**
  
+---
+
 ## Hardware technology used other than Intel:
 
    **Raspberry Pi-3**
+   
+---
 
 ## Screenshots of image classifications and Recognitions
 
 ![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Cat%20Variety%20Classification%20and%20Recognition.png)
 
 ![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Dog%20Variety%20Recognition.png)
+
+---
 
 ## Project done in Linux(Ubuntu) Operating System
 
