@@ -132,3 +132,5 @@ Intel Technologies used **(as external hardware):**
 ![GitHub followers](https://img.shields.io/github/followers/akhilaku.svg?label=Follow%20@akhilaku&style=social) [![Twitter Follow](https://img.shields.io/twitter/follow/KsAkhildas?style=social)](https://twitter.com/KsAkhildas)
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/akhilaku/)
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
