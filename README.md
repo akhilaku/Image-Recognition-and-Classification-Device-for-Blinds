@@ -133,4 +133,4 @@ Intel Technologies used **(as external hardware):**
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/akhilaku/)
 
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)]
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
