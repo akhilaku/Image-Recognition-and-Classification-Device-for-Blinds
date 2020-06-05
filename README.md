@@ -123,6 +123,8 @@ Intel Technologies used **(as external hardware):**
 
 ![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Hardware%20Setup.jpeg)
 
+---
+
 ### Project Admin
 
 | ![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-2/blob/master/akhildasKs%20(2).jpg) |
@@ -134,3 +136,5 @@ Intel Technologies used **(as external hardware):**
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/akhilaku/)
 
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+
+---
