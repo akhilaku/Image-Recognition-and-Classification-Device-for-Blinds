@@ -201,10 +201,6 @@ git push -u origin <your_branch_name>
 
 ---
 
-![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Hardware%20Setup.jpeg)
-
----
-
 ### :warning:  Issues
 
 Always feel free to **file a new issue** with a respective title and description on the [Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2](https://github.com/akhildasks/Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2/issues) repository.
@@ -223,7 +219,7 @@ If you have any great ideas which can make this project more better, you can mak
 
 [![GitHub followers](https://img.shields.io/github/followers/akhildasks.svg?label=Follow%20@akhilaku&style=social)](https://github.com/akhildasks/) [![Twitter Follow](https://img.shields.io/twitter/follow/KsAkhildas?style=social)](https://twitter.com/KsAkhildas)
 
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/akhilaku/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/akhildasks/)
 
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
