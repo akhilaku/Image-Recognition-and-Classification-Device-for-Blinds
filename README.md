@@ -212,7 +212,7 @@ If you have any great ideas which can make this project more better, you can mak
   
 ### Project Admin
 
-| ![](https://github.com/akhildasks/Image-Classifier-using-Intel-Movidius-NCS-2/blob/master/akhildasKs%20(2).jpg) |
+| ![](https://github.com/akhildasks/Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2/blob/master/akhildasKs%20(2).jpg) |
 | :------------------------: |
 | **AKHILDAS KS**  |
 
