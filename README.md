@@ -1,5 +1,3 @@
-# Image-Classifier-and-Recognition-using-Intel-Movidius-NCS-2
-
 # **Image Recognition and Classification Device for Blind People**
 
 ## **STUDENT CODE-IN**
