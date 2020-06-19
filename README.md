@@ -27,6 +27,10 @@ They are less-cost comparing other GPU's and can be used efficiently for most of
 
 ## Building the main part "Image Recognition and Classification System"
 
+<p align="center">
+<kbd><img src=https://github.com/akhildasks/Image-Recognition-and-Classification-Device-for-Blind-People/blob/master/images/IMNCS.png width=800 height=369 /></kbd>
+  </p>
+  
 ### Overview / Usage
 
 The **Intel Movidius Neural Compute Stick(NCS)** is produced by Intel and can be run without an internet connection. This Movidius NCS's compute capability comes from its Myriad 2 Vision Processing Unit(VPU).
