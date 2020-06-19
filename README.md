@@ -129,6 +129,7 @@ It's very simple to run inference on an image classification demo model. We can 
 - [**Raspberry pi-3** ](https://www.raspberrypi.org/documentation/)
 - [**Raspberry pi-camera**](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/8)
 - **Headset-** Click [here](https://www.hackster.io/youness/connect-bluetooth-headset-to-raspberry-pi-3-a2dp-and-hsp-56ec2f) to see how to connect your headset with Raspberry Pi-3.
+- **Power-Bank**
 
 ### Softwares Requirements:
 
