@@ -1,5 +1,19 @@
 # Image-Classifier-and-Recognition-using-Intel-Movidius-NCS-2
 
+# **Image Recognition and Classification Device for Blind People**
+
+## **STUDENT CODE-IN**
+
+### **About Student Code-In** 
+
+**[Student Code-In](https://scodein.tech) is a global program that helps students grow with Open Source. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of Open Source Projects. In this, all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team.**
+
+<p align="center">
+  <kbd><img src="https://github.com/StudentCode-in/Image-Recognition-and-Classification-Device-for-Blind-People/blob/master/images/Student%20Code-In%20logo.jpg" ></kbd>
+  </p>
+
+---
+
 **This project is based on helping the blind people to identify, recognize and classify the things in front of them using Intel Movidius Neural Compute Stick(NCS) with Raspberry Pi-3.**
 
 **The project is developed till its image recognition and classification process, and I'm under developing its classified image text to speech process so that Blind people can know what is in front of them through their earphones connected to the device.**
