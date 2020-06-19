@@ -14,6 +14,10 @@
 
 **Project idea is to implement an image recognition and classification device in their pocket with a camera in spectacles of blind people, so that it can recognize and classify the things(visuals) in front of them. It also helps to identify the people in front of them with the help of face recognition. The classified or recognized image will be converted into speech so that the Blinds can listen and understand what is in front of them with the help of a headset.**
 
+<p align="center">
+<kbd><img src=https://github.com/akhilaku/Image-Recognition-and-Classification-Device-for-Blind-People/blob/master/images/Project-Theme.jpg width=800 height=369 /></kbd>
+  </p>
+  
 **The project is developed till its image recognition and classification process, and I'm under developing its classified image text to speech process so that Blind people can know what is in front of them through their earphones connected to the device.**
 With the help of Intel Movidius NCS we can run any complex pre-trainet Networks in the processors with low processing capability.
 This NCS functions as an efficient external processor for performing any complex neural architectures.
@@ -21,13 +25,9 @@ This NCS functions as an efficient external processor for performing any complex
 **Intel Movidius Neural Compute Stick(NCS)** can be used as an **external GPU** for the systems which cannot support for artificial intelligence based projects.
 They are less-cost comparing other GPU's and can be used efficiently for most of the Deeo Learning, Machine Learning and Artificial Intelligence Based Projects 
 
-# Building the main part "Image Recognition and Classification System"
+## Building the main part "Image Recognition and Classification System"
 
-<p align="center">
-<kbd><img src=https://github.com/akhilaku/Image-Recognition-and-Classification-Device-for-Blind-People/blob/master/images/Project-Theme.jpg width=800 height=369 /></kbd>
-  </p>
-
-## Overview / Usage
+### Overview / Usage
 
 The **Intel Movidius Neural Compute Stick(NCS)** is produced by Intel and can be run without an internet connection. This Movidius NCS's compute capability comes from its Myriad 2 Vision Processing Unit(VPU).
 
