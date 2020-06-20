@@ -196,13 +196,17 @@ git push -u origin <your_branch_name>
 
 ---
 
-![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Dog%20Variety%20Recognition.png)
+<p align="center">
+<kbd><img src=https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Dog%20Variety%20Recognition.png><kbd>
+  </p>
 
 ---
 
 ## Project done in Linux(Ubuntu) Operating System
 
-![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Image%20Recognition%20in%20Linux(ubantu).png)
+<p align="center">
+<kbd><img src=https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Image%20Recognition%20in%20Linux(ubantu).png></kbd>
+  </p>
 
 ---
 
