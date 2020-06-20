@@ -190,7 +190,9 @@ git push -u origin <your_branch_name>
 
 ## Screenshots of image classifications and Recognitions
 
-![](https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Cat%20Variety%20Classification%20and%20Recognition.png)
+<p align="center">
+<kbd><img src=https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Cat%20Variety%20Classification%20and%20Recognition.png></kbd>
+  </p>
 
 ---
 
