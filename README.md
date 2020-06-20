@@ -12,7 +12,7 @@
 
 ---
 
-**Project idea is to implement an image recognition and classification device in their pocket with a camera in spectacles of blind people, so that it can recognize and classify the things(visuals) in front of them. It also helps to identify the people in front of them with the help of face recognition. The classified or recognized image will be converted into speech so that the Blinds can listen and understand what is in front of them with the help of a headset.**
+**Project idea is to implement an image recognition and classification device in their pocket with a camera in spectacles of blind people, so that it can recognize and classify the things (visuals) in front of them. It also helps to identify the people in front of them with the help of face recognition. The classified or recognized image will be converted into speech so that the Blinds can listen and understand what is in front of them with the help of a headset.**
 
 <p align="center">
 <kbd><img src=https://github.com/akhilaku/Image-Recognition-and-Classification-Device-for-Blind-People/blob/master/images/Project-Theme.jpg width=800 height=369 /></kbd>
@@ -23,7 +23,7 @@ With the help of Intel Movidius NCS we can run any complex pre-trainet Networks 
 This NCS functions as an efficient external processor for performing any complex neural architectures.
 
 **Intel Movidius Neural Compute Stick(NCS)** can be used as an **external GPU** for the systems which cannot support for artificial intelligence based projects.
-They are less-cost comparing other GPU's and can be used efficiently for most of the Deeo Learning, Machine Learning and Artificial Intelligence Based Projects 
+They are less-cost comparing other GPU's and can be used efficiently for most of the Deep Learning, Machine Learning and Artificial Intelligence Based Projects 
 
 ---
 
@@ -153,13 +153,13 @@ Click on the <a href="https://github.com/StudentCode-in/Image-Recognition-and-Cl
 **2.** Clone the forked repository.
 
 ```bash
-git clone https://github.com/<your-github-username>/Image-Recognition-and-Classification-Device-for-Blind-People
+git clone https://github.com/<your-github-username>/Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2.git
 ```
 
 **3.** Navigate to the project directory.
 
 ```bash
-cd Image-Recognition-and-Classification-Device-for-Blind-People
+cd Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2/
 ```
 
 **4.** Create a new branch.
