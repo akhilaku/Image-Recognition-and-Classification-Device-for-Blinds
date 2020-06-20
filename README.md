@@ -25,6 +25,30 @@ This NCS functions as an efficient external processor for performing any complex
 **Intel Movidius Neural Compute Stick(NCS)** can be used as an **external GPU** for the systems which cannot support for artificial intelligence based projects.
 They are less-cost comparing other GPU's and can be used efficiently for most of the Deeo Learning, Machine Learning and Artificial Intelligence Based Projects 
 
+---
+
+## 🚩  Vision
+### Goals of this project:
+- **To reduce the difficulties faced by the blind people in their daily life** by creating a device which will tell them what is in front of them(includes identifying the people in front of them using Face recognition)
+- **To make the blind people forget about their disabilities.**
+
+---
+
+### Hardware component required for this projects:
+
+- [**Intel Movidius Neural Compute Stick(NCS) 2**](https://software.intel.com/content/www/us/en/develop/hardware/neural-compute-stick.html)
+- [**Raspberry pi-3** ](https://www.raspberrypi.org/documentation/)
+- [**Raspberry pi-camera**](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/8)
+- **Headset-** Click [here](https://www.hackster.io/youness/connect-bluetooth-headset-to-raspberry-pi-3-a2dp-and-hsp-56ec2f) to see how to connect your headset with Raspberry Pi-3.
+- **Power-Bank**
+
+### Softwares Requirements:
+
+- **Python**- Click [here](https://www.python.org/downloads/) to download
+- **OpenVino Tool Kit**- Click [here](https://software.seek.intel.com/openvino-toolkit?cid=diad&source=hackster&campid=WW_Q2_2020_IoTG-DE_OpenVI%20NO-DA&content=dev-challenge) to download
+
+---
+
 ## Building the main part "Image Recognition and Classification System"
 
 <p align="center">
@@ -118,28 +142,7 @@ It's very simple to run inference on an image classification demo model. We can 
        #For clear and shutdowning the Movidius NCS device for using it gain.
        graph.DeallocateGraph;
        device.CloseDevice();
-
----
-## 🚩  Vision
-### Goals of this project:
-- **To reduce the difficulties faced by the blind people in their daily life** by creating a device which will tell them what is in front of them(includes identifying the people in front of them using Face recognition)
-- **To make the blind people forget about their disabilities.**
-
----
-
-### Hardware component required for this projects:
-
-- [**Intel Movidius Neural Compute Stick(NCS) 2**](https://software.intel.com/content/www/us/en/develop/hardware/neural-compute-stick.html)
-- [**Raspberry pi-3** ](https://www.raspberrypi.org/documentation/)
-- [**Raspberry pi-camera**](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/8)
-- **Headset-** Click [here](https://www.hackster.io/youness/connect-bluetooth-headset-to-raspberry-pi-3-a2dp-and-hsp-56ec2f) to see how to connect your headset with Raspberry Pi-3.
-- **Power-Bank**
-
-### Softwares Requirements:
-
-- **Python**- Click [here](https://www.python.org/downloads/) to download
-- **OpenVino Tool Kit**- Click [here](https://software.seek.intel.com/openvino-toolkit?cid=diad&source=hackster&campid=WW_Q2_2020_IoTG-DE_OpenVI%20NO-DA&content=dev-challenge) to download
-
+       
 ---
 
 ### Getting Started
