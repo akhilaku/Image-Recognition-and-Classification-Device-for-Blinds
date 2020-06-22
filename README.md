@@ -63,10 +63,10 @@ It's very simple to run inference on an image classification demo model. We can 
 
 1. **Step 02:** You can access the Movidius NCS using an API like any other USB device. Also you can use parallel Movidius devices at once if you need more capacity to compute your model. For now, one kit is enough for this application. Select and open process.
     ```python
-       #then look for the enumerated Intel Movidius NCS Device();quite program if none found.
+       #then look for the enumerated Intel Movidius NCS Device(), quit program if none found.
        devices = mvnc.EnumerateDevice();
        if len(devices) == 0:
-           print("No any Devices found");
+           print("No Devices Found");
            quit;
        #Now get a handle to the first enumerated device and open it.
        device = mvnc.Device(devices[0]);
@@ -115,8 +115,8 @@ It's very simple to run inference on an image classification demo model. We can 
 
 1. **Step 08:** For the last step, we clear and shutdown the Movidius NCS device for using it again.
     ```python
-       #For clear and shutdowning the Movidius NCS device for using it gain.
-       graph.DeallocateGraph;
+       #For clear and shutting down the Movidius NCS device for using it again.
+       graph.DeallocateGraph();
        device.CloseDevice();
 
 ---
