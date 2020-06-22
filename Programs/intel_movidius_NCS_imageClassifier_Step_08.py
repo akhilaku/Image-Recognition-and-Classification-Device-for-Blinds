@@ -1,3 +1,3 @@
 #For claer and shutdowning the Movidius NCS device for using it gain.
-graph.DeallocateGraph;
+graph.DeallocateGraph();
 device.CloseDevice();
