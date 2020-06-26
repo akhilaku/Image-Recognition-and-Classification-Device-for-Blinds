@@ -52,7 +52,7 @@ They are less-cost comparing other GPU's and can be used efficiently for most of
 ## Building the main part "Image Recognition and Classification System"
 
 <p align="center">
-<kbd><img src=https://github.com/akhildasks/Image-Recognition-and-Classification-Device-for-Blind-People/blob/master/images/IMNCS.png width=800 height=369 /></kbd>
+<kbd><img src=https://github.com/akhilaku/Image-Recognition-and-Classification-Device-for-Blind-People/blob/master/images/IMNCS.png width=800 height=369 /></kbd>
   </p>
   
 ### Overview / Usage
@@ -212,21 +212,21 @@ git push -u origin <your_branch_name>
 
 ### :warning:  Issues
 
-Always feel free to **file a new issue** with a respective title and description on the [Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2](https://github.com/akhildasks/Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2/issues) repository.
+Always feel free to **file a new issue** with a respective title and description on the [Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2](https://github.com/akhilaku/Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2/issues) repository.
 
 ### :handshake:  Contribution
 
-If you have any great ideas which can make this project more better, you can make changes and send me a Pull Request(PR) with a respective title and description on the [Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2](https://github.com/akhildasks/Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2) repository, I will definitely review your pull request.
+If you have any great ideas which can make this project more better, you can make changes and send me a Pull Request(PR) with a respective title and description on the [Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2](https://github.com/akhilaku/Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2) repository, I will definitely review your pull request.
 
 ---
   
 ### Project Admin
 
-| ![](https://github.com/akhildasks/Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2/blob/master/akhildasKs%20(2).jpg) |
+| ![](https://github.com/akhilaku/Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2/blob/master/akhildasKs%20(2).jpg) |
 | :------------------------: |
 | **AKHILDAS KS**  |
 
-[![GitHub followers](https://img.shields.io/github/followers/akhildasks.svg?label=Follow%20@akhilaku&style=social)](https://github.com/akhildasks/) [![Twitter Follow](https://img.shields.io/twitter/follow/KsAkhildas?style=social)](https://twitter.com/KsAkhildas)
+[![GitHub followers](https://img.shields.io/github/followers/akhilaku.svg?label=Follow%20@akhilaku&style=social)](https://github.com/akhildasks/) [![Twitter Follow](https://img.shields.io/twitter/follow/KsAkhildas?style=social)](https://twitter.com/KsAkhildas)
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/akhildasks/)
 
