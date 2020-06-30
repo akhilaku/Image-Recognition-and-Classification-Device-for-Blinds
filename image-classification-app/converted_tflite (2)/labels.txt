@@ -1,0 +1,3 @@
+0 flowers
+1 trees
+2 house
