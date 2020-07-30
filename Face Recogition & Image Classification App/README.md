@@ -19,7 +19,7 @@ running the demo on an Android device. For an explanation of the source, see
 
 <!-- TODO(b/124116863): Add app screenshot. -->
 
-### Model
+### *Model*
 
 We provide 4 models bundled in this App: MobileNetV1 (float), MobileNetV1
 (quantized), EfficientNetLite (float) and EfficientNetLite (quantized).
