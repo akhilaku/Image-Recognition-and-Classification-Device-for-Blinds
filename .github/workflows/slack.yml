@@ -1,0 +1,22 @@
+name: Greetings
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Welcome to Image-Recognition-and-Classification-Device-for-Blind-People ! Congrats on your first Issue'
+        pr-message: 'Welcome to Image-Recognition-and-Classification-Device-for-Blind-People  ! Congrats on your first PR'
+
+#env:
+#     SLACK_CHANNEL: imagerecognitionandclassificationdeviceforblindpeople
+#     SLACK_COLOR: '#3278BD'
+#     SLACK_ICON: https://github.com/rtCamp.png?size=48
+#     SLACK_MESSAGE: 'Post Content :rocket:'
+#     SLACK_TITLE: Post Title
+#     SLACK_USERNAME: rtCamp
+#     SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+#    - uses: rtCamp/action-slack-notify@v2.0.1
