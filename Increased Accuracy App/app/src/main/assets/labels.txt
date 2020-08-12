@@ -1,0 +1,13 @@
+car
+day
+dog
+door_closed
+door_open
+human
+human_with_mask
+night
+shop_closed
+stairs
+tap
+tree
+zebra_crossing
