@@ -1,0 +1,34 @@
+CHANGES IN LAYOUT IN layout.txt
+
+LAYOUT
+
+The res directory contains the files related to the LAYOUT
+The location the directory is :
+Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2/Increased Accuracy App/app/src/main/
+Just place the res directory in main that is the location mentioned above to use the changed layout by replacing the res directory already present in the main.
+
+MODIFICATIONS
+
+Name of the App (Be My Eyes) in base_strings.xml & strings.xml
+Name that is going to be displayed in the camera activity space (IMAGE CLASSIFICATION APP FOR BLIND)
+Colour of the name that is going to be displayed in the camera activity space (colour used #7BEFFD)
+Font of the name that is going to be displayed in the camera activity space (res/font/montserrat_subrayada_bold.xml)
+Extra tabs in the layout_bottom_sheet
+Logo of the App (Named as ic_launcer.png, path specified in the screenshot)
+
+FILES THAT I HAVE CHANGED
+
+base_strings.xml
+strings.xml
+activity_camera.xml
+layout_bottom_sheet.xml
+ic_launcher.png (path specified in the screenshot logo_of_the_app.jpg)
+
+REQUIRED PNG'S & SCREENSHOTS
+
+You can find the logo of the App that I have designed in the directory LAYOUT
+SCREENSHOTS can also be found in the directory LAYOUT
+
+NOTE
+
+The raw directory in res (res/raw) contains the .mp3 files of the classes which have been classified in the App, If you are using some other classes you can change the .mp3 files according to the classes you want to classify for the IMAGE_CLASSIFICATION_APP_FOR_BLIND.
