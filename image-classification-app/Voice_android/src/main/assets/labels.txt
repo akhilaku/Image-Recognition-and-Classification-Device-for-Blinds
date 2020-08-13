@@ -1,8 +1,0 @@
-green-traffic-light
-red-traffic-light
-turns
-zebra-crossing
-trees
-house
-flowers
-vehicles
