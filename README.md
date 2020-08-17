@@ -212,14 +212,10 @@ If you have any great ideas which can make this project more better, you can mak
 
 ---
 
+## Valuable Contributors ✨
 
-## Contributors ✨
 
-([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
 <table>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/ashwini-jha-259147159/"><img src="https://github.com/akhilaku/Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2/blob/master/Ashwini.jpg" width="150px;" alt="https://github.com/ashwinijha6"/><br /><sub><b>Ashwini Jha</b></sub></a><br /><a href="https://github.com/ashwinijha6/Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2.git" title="Code">Repo Link</a><br /></td>
