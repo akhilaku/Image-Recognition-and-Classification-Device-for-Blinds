@@ -224,7 +224,7 @@ If you have any great ideas which can make this project more better, you can mak
   </tr>
 </table>
 
-[![GitHub followers](https://img.shields.io/github/followers/ashwinijha6.svg?label=Follow%20@ashwinijha6&style=social)](https://github.com/ashwinijha6/)[![GitHub followers](https://img.shields.io/github/followers/bhanvimenghani.svg?label=Follow%20@bhanvimenghani&style=social)](https://github.com/bhanvimenghani/)
+[![GitHub followers](https://img.shields.io/github/followers/ashwinijha6.svg?label=Follow%20@ashwinijha6&style=social)](https://github.com/ashwinijha6/) [![GitHub followers](https://img.shields.io/github/followers/bhanvimenghani.svg?label=Follow%20@bhanvimenghani&style=social)](https://github.com/bhanvimenghani/)
 
 
 
