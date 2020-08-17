@@ -188,28 +188,6 @@ git push -u origin <your_branch_name>
 
 ---
 
-## Screenshots of image classifications and Recognitions
-
-<p align="center">
-<kbd><img src=https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Cat%20Variety%20Classification%20and%20Recognition.png></kbd>
-  </p>
-
----
-
-<p align="center">
-<kbd><img src=https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Dog%20Variety%20Recognition.png><kbd>
-  </p>
-
----
-
-## Project done in Linux(Ubuntu) Operating System
-
-<p align="center">
-<kbd><img src=https://github.com/akhilaku/Image-Classifier-using-Intel-Movidius-NCS-/blob/master/images(Screenshots)/Image%20Recognition%20in%20Linux(ubantu).png></kbd>
-  </p>
-
----
-
 ### :warning:  Issues
 
 Always feel free to **file a new issue** with a respective title and description on the [Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2](https://github.com/akhilaku/Image-Recognition-and-Classification-Device-for-Blind-People-Using-Intel-NCS-2/issues) repository.
