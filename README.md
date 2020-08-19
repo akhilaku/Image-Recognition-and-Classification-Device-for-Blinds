@@ -212,7 +212,7 @@ If you have any great ideas which can make this project more better, you can mak
 
 ---
 
-## Valuable Contributors ✨
+## Contributors ✨
 
 
 
